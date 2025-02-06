@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class EvenOdd1//without using modulus or bitwise operator
+{
+public static void main(String[]args)
+{
+ System.out.println("Enter a value:");
+ int num=new Scanner(System.in).nextInt();//without using modulus
+ //the "new Scanner(System.in)"is directly taking a reference without using modulus
+System.out.println((num/2)*2==num);//integer
+System.out.println((num/2.0)*2==num);//decimal
+}
+}
